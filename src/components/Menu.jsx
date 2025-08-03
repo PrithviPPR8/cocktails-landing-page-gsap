@@ -22,18 +22,18 @@ const Menu = () => {
         opacity: 0,
         xPercent: -100,
     }, {
-        xPercent: 0,
         opacity: 1,
+        xPercent: 0,
         duration: 1,
         ease: "power1.inOut",
     })
 
     gsap.fromTo(".details h2", {
-        yPercent: 100,
         opacity: 0,
+        yPercent: 100,
     }, {
-        yPercent: 0,
         opacity: 100,
+        yPercent: 0,
         ease: "power1.inOut",
     })
 
